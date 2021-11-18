@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "ShikimoriExt",
+  "short_name": "ShikiSearch",
+  "description": "Searches for the selected text in the Shikimori.",
+  "version": "0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "64": "assets/anime.png"
+  },
+  "background": {"page": "background.html"}
+}
